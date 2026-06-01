@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#heading{
+    height:80px;
+    width: 100%;
+    background-color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bolder;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.choices{
+    height: 600px;
+    width: 600px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+    top: 50px ;
+    gap: 20px;
+}
+
+.choice{
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    
+}
+
+.you {
+    height: 100px;
+    width: 100px ;
+    position: absolute;
+    font-size: 30px;
+    top: 450px;
+    color: rgb(158, 103, 32);
+    left: 580px ;
+    font-weight: bold;
+}
+
+.myscore{
+    height: 100px;
+    width: 100px ;
+    position: absolute;
+    font-size: 30px;
+    top: 480px;
+    color: rgb(158, 103, 32);
+    left: 610px ;
+    font-weight: bold;
+}
+
+.cc {
+    height: 100px;
+    width: 100px ;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(158, 103, 32);
+    top: 450px;
+    left: 720px ;
+    font-weight: bold;
+}
+
+
+
+.compuscore{
+    height: 100px;
+    width: 100px ;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(158, 103, 32);
+    top: 480px;
+    left: 770px ;
+    font-weight: bold;
+}
+
+.result{
+     height: 50px;
+    width: 500px ;
+    position: absolute;
+    font-size: 30px;
+    color: antiquewhite;
+    top: 600px;
+    left: 450px ;
+    background-color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    border-radius: 50px;
+}
